@@ -1,38 +1,103 @@
 .App {
-  text-align: center;
+  /* display: flex;
+  align-items: center; 
+   justify-items: center; 
+   justify-content: center;
+  justify-items: ""; */
+  background-color: #1A1B21;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.photo {
+  width: 317px;
+height: 317px;
+top: 44px;
+left: 116px;
+border-radius: 10px, 10px, 0px, 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name {
+  color: #FFFFFF;
+  /* padding-left: 100px; */
+  font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Designation {
+  font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+color: #F3BF99;
+}
+
+.ProfileLink {
+  font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+color: #F5F5F5;
+}
+
+.buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  /* justify-items: ; */
 }
 
-.App-link {
-  color: #61dafb;
+.email-button {
+  width: Fixed (115px);
+  height: Hug (34px);
+  top: 468px;
+  left: 151px;
+  padding: 9px, 13px, 9px, 11px;
+  border-radius: 6px;
+  border: 1px;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px 0px #0000000D;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.LinkedIn-button {
+  width: Fixed (115px);
+  height: Hug (34px);
+  top: 468px;
+  left: 283px;
+  padding: 9px, 13px, 9px, 11px;
+  border-radius: 6px;
+  gap: 8px;
+  background: #5093E2;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  color: #FFFFFF;
+}
+
+.about-title {
+  font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+/* background: #F5F5F5; */
+color: #F5F5F5;
+}
+
+.about-para {
+  font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+color: #DCDCDC;
+
 }
